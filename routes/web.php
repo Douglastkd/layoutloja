@@ -14,3 +14,34 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+
+Route::get('/produto', function(){
+    return view('produto');
+});
+
+
+Route::get('/login', function(){
+    return view('login');
+});
+
+
+Route::get('/criarconta', function(){
+    return view('criarconta');
+});
+
+Route::get('/concluido', function(){
+    return view('concluido');
+});
+
+Route::any('/checkout', function(){
+    return view('checkout');
+});
+
+Route::get('/painel', function(){
+    return view('painel.produto');
+});
+
+Route::get('/carrinho', function(){
+    return view('carrinho');
+});
