@@ -23,12 +23,12 @@
         "phpunit/phpunit": "^7.5"
     },
 	
-	"repositories": [
+	"repositories": 
     {
        "type": "vcs",
        "url": "https://github.com/Douglastkd/layoutloja" 
-    }
-  ]
+    },
+  
     "config": {
         "optimize-autoloader": true,
         "preferred-install": "dist",
